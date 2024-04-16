@@ -2,3 +2,150 @@
 a.active {
     font-weight: bold;
 }
+
+
+body {
+    background-color: rgb(112, 142, 173);
+
+}
+
+
+nav {
+text-align: right;
+background-color: rgb(197, 215, 245);
+border:3px solid;
+border-radius: 1in;
+
+
+}
+
+ul {
+    list-style-type: none;
+
+  }
+
+h1 {
+
+    text-align: left;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+.profileinfo>span:nth-of-type(1) {
+    font-weight: bold;
+
+}
+
+.followerinfo {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: left;
+
+}
+
+.following {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.following>span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: large;
+}
+
+.follower {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.follower>span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: large;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post>span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: large;
+}
+
+.vl {
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+hr {
+    border: 1px solid rgb(0, 0, 0);
+    width: 500px;
+}
+
+.infoimages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.followerinfo {
+    text-align: left ;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+  }
+  
+  h2 {
+
+    text-align: center;
+  }
+
+  .search {
+    align-items: right;
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+.container {
+  display:flex;
+  justify-content:space-between;
+  align-items:center; 
+}
+#logo{
+  border:3px solid;
+  padding:0 10px;
+}
+#navbar li{
+  display:inline-block;
+}
+#navbar a{
+  text-decoration:none;
+  font-size:18px;
+  padding-right:15px;
+}
+
+.makeapost {
+    background-color: white;
+}
